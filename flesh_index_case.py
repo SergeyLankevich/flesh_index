@@ -1,5 +1,5 @@
 import local
-text = input('Введите текст:')
+text = input(local.text)
 
 sentences = text.count('.')
 words = text.count(' ') + 1
