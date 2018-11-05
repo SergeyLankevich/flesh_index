@@ -1,0 +1,7 @@
+text = 'Ведите текст:'
+words = 'Слов:'
+sentences = 'Предложений:'
+syllables = 'Слогов:'
+average_sentence_length = 'Средняя длина предложения в словах:'
+number_of_syllables_per_word = 'Средняя длина слова в слогах:'
+index = 'Индекс удобочитаемости Флеша:'
