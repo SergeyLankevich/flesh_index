@@ -1,4 +1,5 @@
-text = str(input("Введите текст:"))
+from local import *
+text = input(start)
 text += ' '
-print('Слов:', text.count(' '))
-print('Средняя длина предложения в словах:', text.count(' ') / text.count('.'))
+print(words, text.count(' '))
+print(words_count, text.count(' ') / text.count('.'))
