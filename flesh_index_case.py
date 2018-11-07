@@ -4,12 +4,13 @@ text = input(localization.text)
 lower_text = text.lower()
 sentences = text.count('.')
 words = text.count(' ') + 1
-syllables = lower_text.count(localization.vowel1) + lower_text.count('е') + lower_text.count('ё') + \
-            lower_text.count('и') + lower_text.count('о') + lower_text.count('э') + lower_text.count('у') \
-            + lower_text.count('ю') + lower_text.count('ы') + lower_text.count('я')
+syllables = lower_text.count(localization.vowel1) + lower_text.count(localization.vowel2) + lower_text.count(localization.vowel3) + \
+            lower_text.count(localization.vowel4) + lower_text.count(localization.vowel5) + lower_text.count(localization.vowel6) + \
+            lower_text.count(localization.vowel7) + lower_text.count(localization.vowel8) + lower_text.count(localization.vowel9) + \
+            lower_text.count(localization.vowel10)
 
 if sentences == 0:
-    print('localization.exception')
+    print(localization.exception)
 else:
     asl = round(words / sentences, 2)
     asw = round(syllables / words, 2)
